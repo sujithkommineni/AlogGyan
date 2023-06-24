@@ -1,5 +1,3 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 import Link from 'next/link'
 import Prog from '../public/images/programming_1_green.svg';
 import Courses from '../components/courses';
