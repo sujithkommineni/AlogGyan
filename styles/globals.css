@@ -1,38 +1,124 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+.App {
+  text-align: center;
 }
 
-a {
-  color: inherit;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icover {
+  object-fit: cover;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color:#00BFA6;
+}
+
+#header h2 {
+  color:#484848
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #00BFA6;
+  border: 2px solid #00BFA6;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+#header .btn-get-started:hover {
+  background: #00BFA6;
+  color: #fff;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.header-img {
+  text-align: right;
 }
 
-h1,
-h2,
-p,
-ul {
-  margin: 0;
+#header .animated {
+  animation: rotate-l-r 2s ease-in-out infinite alternate-reverse both;
 }
 
-ul {
-  padding: 0;
-  list-style: none;
+@keyframes rotate-l-r {
+  0% {
+    transform: rotateX(0);
+  }
+
+  25% {
+    transform: rotateX(10);
+  }
+
+  50% {
+    transform: rotateX(0);
+  }
+
+  75% {
+    transform: rotateX(-10);
+  }
+
+  100% {
+    transform: rotateX(0);
+  }
 }
 
-button {
-  padding: 0.5rem 1rem;
-  font-weight: bold;
+.text-theme {
+  color: #00BFA6;
+}
+
+.bg-theme {
+  background-color: #00BFA6;
+}
+
+.custom {
+  flex-grow: inherit;
 }
