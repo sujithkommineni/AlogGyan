@@ -7,7 +7,9 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <title>AlgoGyan - E-Learn</title>
-                <link rel="icon" href="/algo_gyan_no_bg.png" />
+                <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+                <link rel="icon" href="/icon.svg" type="image/svg+xml"></link>
+                <link rel="apple-touch-icon" href="/algo_gyan_no_bg.png" />
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
                     rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
                     crossorigin="anonymous" />

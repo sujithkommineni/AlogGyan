@@ -7,8 +7,8 @@ export default function Contact() {
             <div className="d-flex gap-5 flex-wrap">
                 <div className="flex-fill">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><div className="d-flex gap-5"><i class="bi bi-telephone-fill text-theme"></i> <span>+91-7989970988</span></div></li>
-                        <li class="list-group-item"><div className="d-flex gap-5"><i class="bi bi-whatsapp text-theme"></i> <span>+91-7989970988</span></div></li>
+                        <li class="list-group-item"><div className="d-flex gap-5"><i class="bi bi-telephone-fill text-theme"></i> <span>+91-9550333923 / +1-647-763-8389</span></div></li>
+                        <li class="list-group-item"><div className="d-flex gap-5"><i class="bi bi-whatsapp text-theme"></i> <span>+91-9550333923 / +1-647-763-8389</span></div></li>
                         <li class="list-group-item"><div className="d-flex gap-5"><i class="bi bi-envelope-fill text-theme"></i> <span>info@algogyan.com</span></div></li>
                     </ul>
                 </div>

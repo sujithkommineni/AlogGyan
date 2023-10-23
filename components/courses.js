@@ -4,7 +4,7 @@ import Mobile from '../public/images/laptop_mobile_green.svg';
 export default function Courses() {
     return (
         <section className="my-5">
-                <h1 className="mb-5">Cources we offer </h1>
+                <h1 className="mb-5">Courses we offer </h1>
                 <div className="row g-5">
                     <div className="col-md">
                         <div className="card p-5 h-100">

@@ -24,13 +24,17 @@ export async function getStaticProps({ params }) {
 export default function Post({ postData }) {
   return (
     <Layout>
-      <div className="col-9 mx-auto">
+      <div className="col-md-10 mx-auto">
         <br />
         <h1>{postData.title}</h1>
-        <div class="my-2 ratio ratio-16x9">
-          <iframe class="embed-responsive-item" src={postData.youtube_link}
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+
+        {
+          (postData.youtube_link !== undefined) && (<div class="my-2 ratio ratio-16x9">
+            <p>printing - inside youtube video div</p>
+            <iframe class="embed-responsive-item" src={postData.youtube_link}
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>)
+        }
         <br />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>
