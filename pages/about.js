@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Courses from "../components/courses";
 import Layout from "../components/layout";
 
 export default function About() {
     return (
         <Layout>
+            <Head>
+                <title>About us - AlgoGyan</title>
+            </Head>
             <h1 className="text-theme mt-5">
                 About us
             </h1>

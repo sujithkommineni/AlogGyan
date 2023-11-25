@@ -1,8 +1,12 @@
+import Head from "next/head";
 import Layout from "../components/layout";
 
 export default function Contact() {
     return (
         <Layout>
+            <Head>
+                <title>Contact us - AlgoGyan</title>
+            </Head>
             <h1 className="text-theme my-5">Contact us</h1>
             <div className="d-flex gap-5 flex-wrap">
                 <div className="flex-fill">

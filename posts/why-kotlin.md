@@ -17,6 +17,7 @@ Kotlin is a modern, statically-typed programming language that offers several un
 **Smart Casts:** Kotlin features smart casts, which automatically cast a variable after a type check. This reduces the need for explicit casting and simplifies code.
 
 **Data Classes:** In Kotlin, you can declare data classes with just a few lines of code. These classes automatically generate methods for toString(), equals(), hashCode(), and copy(), making it easier to work with data objects.
+
 **Coroutines:** Kotlin provides native support for coroutines, which simplifies asynchronous programming. Coroutines make it easier to write asynchronous code that is both efficient and readable.
 
 **Type Inference:** Kotlin uses type inference to determine types at compile-time. This reduces the verbosity of code as developers don't need to explicitly specify types in many cases.

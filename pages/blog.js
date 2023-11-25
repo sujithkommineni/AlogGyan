@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
@@ -14,6 +15,9 @@ export async function getStaticProps() {
 export default function Arts({ allPostsData }) {
     return (
         <Layout>
+            <Head>
+                <title>Blog - AlgoGyan</title>
+            </Head>
             <div className="col-9 mx-auto">
                 <br/>
                 <br/>

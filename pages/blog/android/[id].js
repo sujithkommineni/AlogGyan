@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Layout from "../../../components/layout";
 import { getAllPostIds, getPostData } from "../../../lib/posts";
 
@@ -24,6 +25,9 @@ export async function getStaticProps({ params }) {
 export default function Post({ postData }) {
   return (
     <Layout>
+      <Head>
+        <title>{postData.title}</title>
+      </Head>
       <div className="col-md-10 mx-auto">
         <br />
         <h1>{postData.title}</h1>
