@@ -26,6 +26,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css" />
         <title>{postData.title}</title>
       </Head>
       <div className="col-md-10 mx-auto">
